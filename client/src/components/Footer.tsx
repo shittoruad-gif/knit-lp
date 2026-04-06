@@ -17,7 +17,7 @@ export default function Footer() {
                 <img
                   src={PAW_CO_LOGOS.LOGO_3}
                   alt="Paw Company ロゴ"
-                  className="w-10 h-10 object-contain drop-shadow-sm"
+                  className="w-10 h-10 object-contain drop-shadow-sm mix-blend-multiply"
                 />
                 <span className="font-heading text-lg font-bold" style={{ color: "#6B5B4E" }}>
                   Paw Company

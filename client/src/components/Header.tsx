@@ -38,7 +38,7 @@ export default function Header() {
           <img
             src={PAW_CO_LOGOS.LOGO_3}
             alt="Paw Company ロゴ"
-            className="w-10 h-10 lg:w-12 lg:h-12 object-contain transition-transform duration-300 group-hover:scale-110 drop-shadow-sm"
+            className="w-10 h-10 lg:w-12 lg:h-12 object-contain transition-transform duration-300 group-hover:scale-110 drop-shadow-sm mix-blend-multiply"
           />
           <span className="font-heading text-lg lg:text-xl font-bold transition-colors duration-300" style={{ color: "#6B5B4E" }}>
             Paw Company
@@ -96,7 +96,7 @@ export default function Header() {
         <nav className="container flex flex-col gap-1 pb-4">
           {/* Mobile logo repeat */}
           <div className="flex items-center gap-2 px-4 py-3 mb-1 border-b" style={{ borderColor: "rgba(212,197,160,0.3)" }}>
-            <img src={PAW_CO_LOGOS.LOGO_3} alt="Paw Company ロゴ" className="w-8 h-8 object-contain" />
+            <img src={PAW_CO_LOGOS.LOGO_3} alt="Paw Company ロゴ" className="w-8 h-8 object-contain mix-blend-multiply" />
             <span className="font-heading text-sm font-bold" style={{ color: "#6B5B4E" }}>Paw Company</span>
           </div>
           {navItems.map((item) => (
