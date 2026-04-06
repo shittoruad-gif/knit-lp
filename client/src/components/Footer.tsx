@@ -2,7 +2,7 @@
  * フッター — ブランドロゴ + ナビゲーション
  * ブランド：ほっこりハンドクラフト（PAW Co.）
  */
-import { LOGO_CAT } from "@/lib/images";
+import { PAW_CO_LOGOS } from "@/lib/images";
 
 export default function Footer() {
   return (
@@ -15,9 +15,9 @@ export default function Footer() {
             <div className="text-center lg:text-left">
               <div className="flex items-center justify-center lg:justify-start gap-2.5 mb-3">
                 <img
-                  src={LOGO_CAT}
+                  src={PAW_CO_LOGOS.LOGO_3}
                   alt="Paw Company ロゴ"
-                  className="w-9 h-9 object-contain drop-shadow-sm"
+                  className="w-10 h-10 object-contain drop-shadow-sm"
                 />
                 <span className="font-heading text-lg font-bold" style={{ color: "#6B5B4E" }}>
                   Paw Company
