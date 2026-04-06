@@ -92,35 +92,22 @@ export default function MakerStory() {
                 {/* Maker profile — PAW Co. logo + info */}
                 <div className="lg:flex-shrink-0 mb-8 lg:mb-0">
                   <div className="mx-auto w-44 lg:w-52 text-center">
-                    <div
-                      className="mx-auto w-28 h-28 lg:w-32 lg:h-32 rounded-2xl overflow-hidden border-4 border-white"
-                      style={{ boxShadow: "0 4px 16px rgba(107,91,78,0.12)" }}
-                    >
+                    <div className="mx-auto w-28 h-28 lg:w-32 lg:h-32 flex items-center justify-center">
                       <img
-                        src={PAW_CO_LOGOS.LOGO_1}
-                        alt="PAW Co. ほっこりハンドクラフト"
-                        className="w-full h-full object-cover"
+                        src={PAW_CO_LOGOS.LOGO_3}
+                        alt="PAW Co. Paw Company"
+                        className="w-full h-full object-contain mix-blend-multiply"
                         loading="lazy"
                       />
                     </div>
                     <div className="mt-4 space-y-1">
                       <p className="font-heading text-sm font-bold" style={{ color: "#5C4D3C" }}>
-                        ほっこりハンドクラフト
+                        Paw Company
                       </p>
                       <p className="font-body text-[11px] leading-relaxed" style={{ color: "#A0907E" }}>
-                        PAW Co.<br />
                         作り手 / 二児の母<br />
                         ニット・縫い物作家
                       </p>
-                    </div>
-                    {/* Small logo row */}
-                    <div className="flex gap-2 justify-center mt-3">
-                      <div className="w-10 h-10 rounded-lg overflow-hidden border border-white/80" style={{ boxShadow: "0 1px 4px rgba(0,0,0,0.06)" }}>
-                        <img src={PAW_CO_LOGOS.LOGO_2} alt="" className="w-full h-full object-cover" loading="lazy" />
-                      </div>
-                      <div className="w-10 h-10 rounded-lg overflow-hidden border border-white/80" style={{ boxShadow: "0 1px 4px rgba(0,0,0,0.06)" }}>
-                        <img src={PAW_CO_LOGOS.LOGO_3} alt="" className="w-full h-full object-cover" loading="lazy" />
-                      </div>
                     </div>
                   </div>
                 </div>

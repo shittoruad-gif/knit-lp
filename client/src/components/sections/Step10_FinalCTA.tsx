@@ -4,7 +4,7 @@
  * ルール：押し売りしない。寄り添うトーンで締める
  */
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
-import { MAKER_BG, LOGO_CAT, PRODUCTS } from "@/lib/images";
+import { MAKER_BG, PAW_CO_LOGOS, PRODUCTS } from "@/lib/images";
 import CtaButton from "@/components/CtaButton";
 import LineButton from "@/components/LineButton";
 
@@ -88,9 +88,9 @@ export default function Step10FinalCTA() {
           <div className="max-w-2xl mx-auto text-center">
             {/* Brand Logo */}
             <img
-              src={LOGO_CAT}
-              alt="ほっこりハンドクラフト ロゴ"
-              className={`w-20 h-20 lg:w-28 lg:h-28 object-contain mx-auto mb-8 transition-all duration-700 drop-shadow-sm ${ctaVisible ? "opacity-80 translate-y-0" : "opacity-0 translate-y-4"}`}
+              src={PAW_CO_LOGOS.LOGO_3}
+              alt="Paw Company ロゴ"
+              className={`w-20 h-20 lg:w-28 lg:h-28 object-contain mx-auto mb-8 transition-all duration-700 drop-shadow-sm mix-blend-multiply ${ctaVisible ? "opacity-80 translate-y-0" : "opacity-0 translate-y-4"}`}
             />
 
             <h2
