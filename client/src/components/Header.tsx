@@ -34,14 +34,14 @@ export default function Header() {
     >
       <div className="container flex items-center justify-between py-3 lg:py-4">
         {/* Brand Logo */}
-        <a href="#" className="flex items-center gap-2.5 group" aria-label="ほっこりハンドクラフト トップへ戻る">
+        <a href="#" className="flex items-center gap-2.5 group" aria-label="Paw Company トップへ戻る">
           <img
             src={LOGO_CAT}
-            alt="ほっこりハンドクラフト ロゴ"
+            alt="Paw Company ロゴ"
             className="w-9 h-9 lg:w-11 lg:h-11 object-contain transition-transform duration-300 group-hover:scale-110 drop-shadow-sm"
           />
           <span className="font-heading text-lg lg:text-xl font-bold transition-colors duration-300" style={{ color: "#6B5B4E" }}>
-            ほっこりハンドクラフト
+            Paw Company
           </span>
         </a>
 
@@ -96,8 +96,8 @@ export default function Header() {
         <nav className="container flex flex-col gap-1 pb-4">
           {/* Mobile logo repeat */}
           <div className="flex items-center gap-2 px-4 py-3 mb-1 border-b" style={{ borderColor: "rgba(212,197,160,0.3)" }}>
-            <img src={LOGO_CAT} alt="ほっこりハンドクラフト ロゴ" className="w-7 h-7 object-contain" />
-            <span className="font-heading text-sm font-bold" style={{ color: "#6B5B4E" }}>ほっこりハンドクラフト</span>
+            <img src={LOGO_CAT} alt="Paw Company ロゴ" className="w-7 h-7 object-contain" />
+            <span className="font-heading text-sm font-bold" style={{ color: "#6B5B4E" }}>Paw Company</span>
           </div>
           {navItems.map((item) => (
             <a

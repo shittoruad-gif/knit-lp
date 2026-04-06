@@ -16,11 +16,11 @@ export default function Footer() {
               <div className="flex items-center justify-center lg:justify-start gap-2.5 mb-3">
                 <img
                   src={LOGO_CAT}
-                  alt="ほっこりハンドクラフト ロゴ"
+                  alt="Paw Company ロゴ"
                   className="w-9 h-9 object-contain drop-shadow-sm"
                 />
                 <span className="font-heading text-lg font-bold" style={{ color: "#6B5B4E" }}>
-                  ほっこりハンドクラフト
+                  Paw Company
                 </span>
               </div>
               <p className="font-body text-xs leading-relaxed" style={{ color: "#A0907E" }}>
@@ -57,7 +57,7 @@ export default function Footer() {
           {/* Bottom */}
           <div className="flex flex-col sm:flex-row items-center justify-between gap-3">
             <p className="font-body text-xs" style={{ color: "#B0A598" }}>
-              &copy; 2025 ほっこりハンドクラフト All rights reserved.
+              &copy; 2025 Paw Company All rights reserved.
             </p>
             <a
               href="https://hokkorinit.base.shop/"
