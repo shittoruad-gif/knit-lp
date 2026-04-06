@@ -10,7 +10,7 @@ interface LineButtonProps {
 export default function LineButton({ className = "" }: LineButtonProps) {
   return (
     <a
-      href="https://lin.ee/vluKZ13"
+      href="https://line.me/R/ti/p/@152czhdw"
       target="_blank"
       rel="noopener noreferrer"
       className={`inline-flex items-center justify-center gap-2 font-heading text-sm lg:text-base px-8 py-3.5 rounded-full transition-all duration-300 hover:-translate-y-0.5 hover:shadow-md text-white ${className}`}
