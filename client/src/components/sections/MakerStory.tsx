@@ -40,7 +40,7 @@ export default function MakerStory() {
             style={{ color: "#5C4D3C" }}
           >
             作っているのは、<br />
-            あなたと同じ「お母さん」です
+            子育てを駆け抜けた「おかあさん」です
           </h2>
 
           {/* Maker card — letter style */}
@@ -105,7 +105,7 @@ export default function MakerStory() {
                         Paw Company
                       </p>
                       <p className="font-body text-[11px] leading-relaxed" style={{ color: "#A0907E" }}>
-                        作り手 / 二児の母<br />
+                        作り手 / 三児の母・孫と同居中<br />
                         ニット・縫い物作家
                       </p>
                     </div>
@@ -115,35 +115,53 @@ export default function MakerStory() {
                 {/* Maker's story — letter style */}
                 <div className="lg:flex-1 space-y-5 font-body text-sm lg:text-base leading-[2]" style={{ color: "#6B5B4E" }}>
                   <p className="font-accent text-base lg:text-lg" style={{ color: "#C4908F" }}>
-                    「子どもと過ごす時間を、もっと温かくしたい」
+                    「あの頃、こんなものがあったら嬉しかったな」
                   </p>
                   <p>
-                    はじめまして。ほっこりハンドクラフトの作り手です。
+                    はじめまして。Paw Companyの作り手です。
                     <br />
-                    私自身、子育てに追われる毎日の中で、
+                    1年おきに3人の子どもを産み、イクメンなんて言葉もなかった時代。
                     <br />
-                    ふと「何か、心がほっとするものが欲しいな」と感じたのがきっかけでした。
+                    実家は遠く、夫は深夜帰り——毎日をただ必死に駆け抜けていました。
                   </p>
                   <p>
-                    子どもが手に取って安心なもの、
+                    今は子育てを終え、娘と孫と一緒に暮らしています。
                     <br />
-                    お母さんが見てちょっと笑顔になれるもの。
+                    娘の子育てを間近で見ながら、
                     <br />
-                    そんな想いを込めて、ひと針ひと針、手で作っています。
+                    「あぁ、同じことで悩んだなぁ」「こんなおもちゃ、作りたかったなぁ」
+                    <br />
+                    ——そんな想いがふつふつと湧いてきたのがきっかけでした。
                   </p>
                   <p>
-                    完璧じゃなくていい。
+                    最初は娘と孫へのプレゼントから。
                     <br />
-                    ただ、あなたの暮らしに
-                    <span className="font-accent" style={{ color: "#C4908F" }}>「ちいさなほっこり」</span>
-                    をお届けできたら、
+                    それが少しずつ広がって、同じ世代のお母さんたちに
                     <br />
-                    それが何より嬉しいです。
+                    「作って」とお願いされるようになりました。
+                  </p>
+                  <p>
+                    通りすがりの人に
+                    <span className="font-accent" style={{ color: "#C4908F" }}>「まぁ！かわいい！」</span>
+                    と言われたときの嬉しさ。
+                    <br />
+                    お出かけがちょっと楽しみになる、そんなアイテムを届けたい。
+                    <br />
+                    ひと針ひと針に、そんな想いを込めています。
+                  </p>
+                  <p>
+                    「この布で作ってほしい」というオーダーもお受けしています。
+                    <br />
+                    何度かやり取りさせていただきながら、
+                    <br />
+                    なるべくたくさんの家族の
+                    <span className="font-accent" style={{ color: "#C4908F" }}>愛情と想いを形に</span>
+                    できたらいいなと思っています。
                   </p>
                   {/* Signature */}
                   <div className="pt-2 text-right">
                     <p className="font-accent text-sm" style={{ color: "#A0907E" }}>
-                      ——ほっこりハンドクラフト 作り手より
+                      ——Paw Company 作り手より
                     </p>
                   </div>
                 </div>
